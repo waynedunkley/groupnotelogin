@@ -1,0 +1,31 @@
+doctype 5
+html
+	head
+		link(rel='stylesheet', href='/stylesheet/style.css')
+		link(rel='stylesheet', href='/stylesheet/bootstrap-responsive.css')
+		link(rel='stylesheet', href='/stylesheet/bootstrap.css')
+		script(src='/javascript/jquery-1.8.2.min.js')
+		script(src='/javascript/login.js')
+		script(src='/javascript/bootstrap.js')
+	body
+		div(class='container-fluid thisone')
+			h1 GroupNote
+			p(class='lead') Please log in
+		
+			div(class='loginformcont')
+				form(id='loginform', action='', method='POST', class='form-horizontal')
+					div(class='control-group', id='username-control-group')
+						label(for='username', class='control-label') Username
+						div(class='controls')
+							input(type='text', name='username', id='username')
+							span(class='help-inline')
+					div(class='control-group', id='password1-control-group')
+						label(for='password1', class='control-label') Password
+						div(class='controls')
+							input(type='password', name='password')
+							span(class='help-inline')
+					div(class='control-group')
+						div(class='controls')
+							input(type='submit', value='Log In', class='btn btn-primary')
+							a(href='/register')
+								button(class='btn btn-info', id='regbtn', type='button') Register

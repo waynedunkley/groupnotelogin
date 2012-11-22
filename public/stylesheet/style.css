@@ -1,0 +1,20 @@
+.fucker {
+	color: red;
+}
+.thisone {
+/* 	background-color: red; */
+}
+form {
+/* 	background-color: green; */
+}
+.regform {
+	width: 600px;
+	margin: 0 auto;
+}
+.loginformcont {
+	width: 600px;
+	margin: 0 auto;
+}
+.loginformcont #regbtn {
+	margin-left: 75px;
+}
